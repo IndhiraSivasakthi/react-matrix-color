@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
